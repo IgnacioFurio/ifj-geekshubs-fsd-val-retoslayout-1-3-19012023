@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+
+/* <!-- INICIO navegador superior 2 col--> */
+#navbar{
+    height: 10vh;
+    display: flex;
+}
+    /* columna izquiera */
+#navbar-l{
+    width: 50vw;
+    background-color: blue;
+} 
+    /* columna derecha */
+#navbar-r{
+    width: 50vw;
+    background-color: red;
+}
+/* FIN navegador superior 2 col */
+
+/* INICIO cuerpo central */
+#main{
+    height: 80vh;
+}
+/* alineacion de los 3 div */
+.main-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* barra de busquedas */
+#main-bar{
+    height: 40%;
+    background-color: blueviolet;
+
+}
+/* botones de busquedas */
+#main-button{
+    height: 20%;
+    background-color: brown;
+}
+/* selector de idioma */
+#main-lang{
+    height: 40%;
+    background-color: rgb(255, 0, 106);
+}
+/* FIN cuerpo central */
+
+/* INICIO footer */
+#footer{
+    height: 10vh;
+}
+/* formato div arriba */
+#up{
+    height: 50%;
+    background-color: yellow;
+}
+/* formato divs abajo */
+#down{
+    height: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+/* div abajo izq */
+#down-l{
+    background-color: yellowgreen;
+}
+/* div abajo centro */
+#down-c{
+    background-color: rgb(38, 0, 255);
+}
+/* div abajo der */
+#down-r{
+    background-color: blueviolet;
+}
+/* FIN footer */
