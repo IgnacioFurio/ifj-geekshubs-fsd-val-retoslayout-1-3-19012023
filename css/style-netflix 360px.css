@@ -1,0 +1,18 @@
+    .small{
+    display: none;
+}
+    #grid{
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 1fr 5fr 5fr;
+        grid-template-rows: 1fr 4fr 4fr 4fr;
+        gap: 5px;
+        padding-right: 5%;
+    }
+    #lat{
+        grid-row: 1 / 13;
+    }
+        .categories{    
+            grid-column: 2 / 4;
+        }
+
